@@ -20,10 +20,12 @@ sudo service apache2 reload
 apt -y install mariadb-server
 
 # Download NextCloud install
-wget https://download.nextcloud.com/server/releases/nextcloud-9.0.50.tar.bz2
-tar -vxjf nextcloud-9.0.50.tar.bz2
+installFile="nextcloud-9.0.50.tar.bz2"
 
-rm nextcloud-9.0.50.tar.bz2
+wget https://download.nextcloud.com/server/releases/$installFile
+tar -vxjf $installFile
+
+rm $installFile
 
 mv nextcloud /var/www
 
