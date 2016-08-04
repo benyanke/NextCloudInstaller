@@ -2,6 +2,8 @@
 
 # https://www.linux.com/learn/how-install-nextcloud-server-ubuntu%20%20
 
+# Not complete yet
+
 # add run as root check
 
 
