@@ -22,7 +22,7 @@ sudo service apache2 reload
 apt install -y mariadb-server
 
 # Download NextCloud install
-installFile="nextcloud-9.0.50.tar.bz2"
+installFile="nextcloud-9.0.53.tar.bz2"
 
 wget https://download.nextcloud.com/server/releases/$installFile
 tar -vxjf $installFile
