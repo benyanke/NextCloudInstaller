@@ -11,15 +11,15 @@
 apt update
 
 # Install packages
-apt -y install lamp-server^
-apt -y install libxml2-dev php-zip php-dom php-xmlwriter php-xmlreader php-gd php-curl php-mbstring
+apt install -y lamp-server^
+apt install -y libxml2-dev php-zip php-dom php-xmlwriter php-xmlreader php-gd php-curl php-mbstring
 
 # Enables rewrite
 a2enmod rewrite
 sudo service apache2 reload
 
 # Install db
-apt -y install mariadb-server
+apt install -y mariadb-server
 
 # Download NextCloud install
 installFile="nextcloud-9.0.50.tar.bz2"
